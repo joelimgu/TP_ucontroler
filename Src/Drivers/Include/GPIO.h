@@ -2,14 +2,16 @@
 #define MYGPIO_H
 #include "stm32f10x.h"
 
-typedef enum {In_Floating=0x4,
+typedef enum {
+	In_Floating,
 	In_PullDown,
 	In_PullUp,
 	In_Analog,
-	Out_Ppull,
-	Out_OD,
-	AltOut_Ppull,
-	AltOut_OD} GPIO_Conf_TypeDef;
+	Out_PushPull,
+	Out_OpenDrain,
+	AltOut_PushPull,
+	AltOut_OpenDrain
+} GPIO_Conf_TypeDef;
 
 
 typedef struct
