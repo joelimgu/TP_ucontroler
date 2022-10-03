@@ -384,14 +384,24 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\main.c</FilePath>
+            </File>
+            <File>
               <FileName>GPIO.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\Drivers\Src\GPIO.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>Timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Src\main.c</FilePath>
+              <FilePath>.\Src\Drivers\Src\Timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_exemple.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\Exemples\GPIO_exemple.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -402,6 +412,11 @@
               <FileName>GPIO.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Src\Drivers\Include\GPIO.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Src\Drivers\Include\Timer.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -791,14 +806,24 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\main.c</FilePath>
+            </File>
+            <File>
               <FileName>GPIO.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\Drivers\Src\GPIO.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>Timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Src\main.c</FilePath>
+              <FilePath>.\Src\Drivers\Src\Timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_exemple.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\Exemples\GPIO_exemple.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -809,6 +834,11 @@
               <FileName>GPIO.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Src\Drivers\Include\GPIO.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Src\Drivers\Include\Timer.h</FilePath>
             </File>
           </Files>
         </Group>

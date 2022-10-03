@@ -106,7 +106,7 @@ void MyGPIO_Set_Low( GPIO_TypeDef* GPIOX , char GPIO_Pin )  {
 }
 
 void MyGPIO_Reset( GPIO_TypeDef* GPIOX , char GPIO_Pin ) {
-	GPIOX->BRR |= (1 << GPIO_Pin);
+	GPIOX->BRR = (1 << GPIO_Pin);
 }
 
 void MyGPIO_Toggle( GPIO_TypeDef* GPIOX , char GPIO_Pin ) {
