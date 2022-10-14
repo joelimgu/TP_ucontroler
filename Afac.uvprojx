@@ -403,6 +403,11 @@
               <FileType>1</FileType>
               <FilePath>.\Src\Exemples\GPIO_exemple.c</FilePath>
             </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ADC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -417,6 +422,11 @@
               <FileName>Timer.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Src\Drivers\Include\Timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ADC.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -825,6 +835,11 @@
               <FileType>1</FileType>
               <FilePath>.\Src\Exemples\GPIO_exemple.c</FilePath>
             </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ADC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -839,6 +854,11 @@
               <FileName>Timer.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Src\Drivers\Include\Timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ADC.h</FilePath>
             </File>
           </Files>
         </Group>

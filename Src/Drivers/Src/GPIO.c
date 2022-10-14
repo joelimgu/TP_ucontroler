@@ -2,6 +2,7 @@
 
 
 // TODO: Test
+//TODO : Activer Clock 
 void MyGPIO_Init( MyGPIO_Struct_TypeDef * GPIOStructPtr) {
 	unsigned char config = 0x0;
 	switch (GPIOStructPtr->GPIO_Conf) {

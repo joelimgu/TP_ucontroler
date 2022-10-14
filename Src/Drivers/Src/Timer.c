@@ -1,6 +1,7 @@
 #include "../Include/Timer.h"
 
-
+// NOT TESTED
+//TODO : Activer Clock 
 void ( * pTIM1 ) () = 0;
 void ( * pTIM2 ) () = 0;
 void ( * pTIM3 ) () = 0;
@@ -30,6 +31,8 @@ void MyTimer_Base_Init(MyTimer_Struct_Typedef* ConfTimer){
 	ConfTimer->Timer->ARR = ConfTimer->ARR;
 	ConfTimer->Timer->PSC = ConfTimer->PSC;
 }
+
+
 void MyTimer_PWM( TIM_TypeDef * Timer , char Channel ) {
 
 	switch (Channel){
@@ -54,9 +57,10 @@ void MyTimer_PWM( TIM_TypeDef * Timer , char Channel ) {
 			Timer->CCMR2 |= 0x07 << 12; 
 			Timer->CCMR2 &= ~(0x03 <<8);
 			break;
-	} 
-	
+	}	
 }
+
+
 void Set_Duty_Cycle(TIM_TypeDef * Timer , char Channel,uint16_t crr){
 	switch(Channel){
 		case 1:
@@ -73,9 +77,12 @@ void Set_Duty_Cycle(TIM_TypeDef * Timer , char Channel,uint16_t crr){
 			break;
 	}
 }
+
+
 uint16_t Get_Max_Duty(TIM_TypeDef * Timer){
 	return Timer->ARR;
 }
+
 
 void MyTimer_Active_Interrupt(TIM_TypeDef* ConfTimer, char Prio, void (* handler) (void) ) {
 	unsigned char position = 0;
@@ -106,4 +113,4 @@ void MyTimer_Active_Interrupt(TIM_TypeDef* ConfTimer, char Prio, void (* handler
 			pTIM4 = handler;
 			break;
 	}
-}	
+}
